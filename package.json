@@ -1,0 +1,23 @@
+{
+  "name": "software_app",
+  "version": "1.0.0",
+  "description": "Mean Stack Authentication App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validate": "*"
+  },
+  "author": "Wellington Silva",
+  "license": "ISC"
+}
